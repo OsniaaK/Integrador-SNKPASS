@@ -1,0 +1,176 @@
+@keyframes glitch_4011 {
+    0% {
+      clip-path: var(--move1);
+      transform: translate(0px, -10px);
+    }
+  
+    10% {
+      clip-path: var(--move2);
+      transform: translate(-10px, 10px);
+    }
+  
+    20% {
+      clip-path: var(--move3);
+      transform: translate(10px, 0px);
+    }
+  
+    30% {
+      clip-path: var(--move4);
+      transform: translate(-10px, 10px);
+    }
+  
+    40% {
+      clip-path: var(--move5);
+      transform: translate(10px, -10px);
+    }
+  
+    50% {
+      clip-path: var(--move6);
+      transform: translate(-10px, 10px);
+    }
+  
+    60% {
+      clip-path: var(--move1);
+      transform: translate(10px, -10px);
+    }
+  
+    70% {
+      clip-path: var(--move3);
+      transform: translate(-10px, 10px);
+    }
+  
+    80% {
+      clip-path: var(--move2);
+      transform: translate(10px, -10px);
+    }
+  
+    90% {
+      clip-path: var(--move4);
+      transform: translate(-10px, 10px);
+    }
+  
+    100% {
+      clip-path: var(--move1);
+      transform: translate(0);
+    }
+  }
+
+  @keyframes shine {
+    0% {
+      left: -150px;
+    }
+  
+    to {
+      left: 130%;
+    }
+  }
+
+@keyframes hero-appear-home {
+    50% {
+        transform: translateY(0);
+    }
+    
+    75% {
+        transform: translateY(-3vh) ;
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    from {
+        transform: translateY(-20px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes button-hero {
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes p-hero {
+    to {
+        transform: translateX(0) rotate(0);
+    }
+}
+
+
+@keyframes logo-hero {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes header-fixed-appear {
+    to {
+        transform: translateY(0) rotate(0);
+    }
+}
+
+@keyframes right-to-left {
+
+    to {
+        transform: translatey(0);
+    }
+}
+
+@keyframes appear-opacity {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes prueba {
+  0% {
+    
+  }
+
+  100% {
+    --move1: inset(50% 50% 50% 50%);
+  --move2: inset(31% 0 40% 0);
+  --move3: inset(39% 0 15% 0);
+  --move4: inset(45% 0 40% 0);
+  --move5: inset(45% 0 6% 0);
+  --move6: inset(14% 0 61% 0);
+  clip-path: var(--move1);
+  content: "SNKPASS";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  }
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 0%; 
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+@keyframes movebackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 40px;
+  }
+}

@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta
+      name="description"
+      content="Integrador-para-diseno-web-nucba-laugsuarez"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/Misc/Favicon.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/keyframes.css" />
+    <link rel="stylesheet" href="mediaquerys/index-mediaquerys.css">
+    <title>Snk Pass</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- NavBar -->
+      <nav id="desktopmenu">
+        <!-- Desktop Bar -->
+        <li>
+          <a href="pages/login.html">
+            <svg
+              class="svg-header"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-log-in"
+            >
+              <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+              <polyline points="10 17 15 12 10 7" />
+              <line x1="15" x2="3" y1="12" y2="12" />
+            </svg>
+            <span>Sign In</span></a
+          >
+        </li>
+        <li>
+          <a href="pages/register.html">
+            <svg
+              class="svg-header"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M2 21a8 8 0 0 1 13.292-6" />
+              <circle cx="10" cy="8" r="5" />
+              <path d="M19 16v6" />
+              <path d="M22 19h-6" />
+            </svg>
+            <span>Sign Up</span></a
+          >
+        </li>
+        <a href="#main">
+          <svg
+            class="svg-header"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-house"
+          >
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path
+              d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+            />
+          </svg>
+          <span>Home</span></a
+        >
+        <a href="#about-us">
+          <svg
+            class="svg-header"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-user-round"
+          >
+            <circle cx="12" cy="8" r="5" />
+            <path d="M20 21a8 8 0 0 0-16 0" />
+          </svg>
+          <span>About</span></a
+        >
+        <a href="#membresias">
+          <svg
+            class="svg-header"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-badge-dollar-sign"
+          >
+            <path
+              d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"
+            />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
+          </svg>
+          <span>Memberships</span></a
+        >
+        <a href="#carrusel">
+          <svg
+            class="svg-header"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-sparkle"
+          >
+            <path
+              d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"
+            />
+          </svg>
+          <span>Benefits</span></a
+        >
+        <a href="#contacto">
+          <svg
+            class="svg-header"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-notebook-tabs"
+          >
+            <path d="M2 6h4" />
+            <path d="M2 10h4" />
+            <path d="M2 14h4" />
+            <path d="M2 18h4" />
+            <rect width="16" height="20" x="4" y="2" rx="2" />
+            <path d="M15 2v20" />
+            <path d="M15 7h5" />
+            <path d="M15 12h5" />
+            <path d="M15 17h5" />
+          </svg>
+          <span>Contact Us</span></a
+        >
+      </nav>
+      <nav id="mobilemenu" popover>
+        <!-- Burguer Menu -->
+        <li>
+          <a href="pages/login.html">
+            <svg
+              class="svg-header"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-log-in"
+            >
+              <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+              <polyline points="10 17 15 12 10 7" />
+              <line x1="15" x2="3" y1="12" y2="12" />
+            </svg>
+            <span>Login</span></a
+          >
+        </li>
+        <li>
+          <a href="pages/register.html">
+            <svg
+              class="svg-header"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M2 21a8 8 0 0 1 13.292-6" />
+              <circle cx="10" cy="8" r="5" />
+              <path d="M19 16v6" />
+              <path d="M22 19h-6" />
+            </svg>
+            <span>Sign Up</span></a
+          >
+        </li>
+        <a href="#main">
+          <svg
+            class="svg-header"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-house"
+          >
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path
+              d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+            />
+          </svg>
+          <span>Home</span></a
+        >
+        <a href="#about-us">
+          <svg
+            class="svg-header"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-user-round"
+          >
+            <circle cx="12" cy="8" r="5" />
+            <path d="M20 21a8 8 0 0 0-16 0" />
+          </svg>
+          <span>About</span></a
+        >
+        <a href="#membresias">
+          <svg
+            class="svg-header"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-badge-dollar-sign"
+          >
+            <path
+              d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"
+            />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
+          </svg>
+          <span>Memberships</span></a
+        >
+        <a href="#carrusel">
+          <svg
+            class="svg-header"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-sparkle"
+          >
+            <path
+              d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"
+            />
+          </svg>
+          <span>Benefits</span></a
+        >
+        <a href="#contacto">
+          <svg
+            class="svg-header"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-notebook-tabs"
+          >
+            <path d="M2 6h4" />
+            <path d="M2 10h4" />
+            <path d="M2 14h4" />
+            <path d="M2 18h4" />
+            <rect width="16" height="20" x="4" y="2" rx="2" />
+            <path d="M15 2v20" />
+            <path d="M15 7h5" />
+            <path d="M15 12h5" />
+            <path d="M15 17h5" />
+          </svg>
+          <span>Contact Us</span></a
+        >
+      </nav>
+      <form action=""> <!-- Button Burguer -->
+      <button type="button" id="buttonmobile" popovertarget="mobilemenu" popovertargetaction=""toggle>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/>
+        </svg>
+      </button>
+      </form>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <div>
+        <!-- Info Hero -->
+        <picture>
+          <!-- IMG Hero -->
+          <img src="assets/images/logohero.svg" alt="logohero" />
+        </picture>
+        <article>
+          <!-- Titulos Hero -->
+          <h1>SNK PASS</h1>
+          <p>Are you ready for play anything you want?</p>
+        </article>
+        <form action="">
+          <!-- Botones Hero -->
+          <fieldset>
+            <a href="#about-us"><button type="button">About Us</button></a>
+            <a href="#membresias"
+              ><button type="button">Buy Membership</button></a
+            >
+          </fieldset>
+        </form>
+      </div>
+    </main>
+
+    <section id="about-us">
+      <!-- Cards Info -->
+      <article>
+        <!-- Title -->
+        <h1>What is SNK PASS?</h1>
+      </article>
+      <aside>
+        <!-- Cards -->
+        <article class="cards-about-us">
+          <!-- Card 1 -->
+          <div>
+            <!-- Card 1 -->
+            <picture>
+              <!-- SVG -->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                <path
+                  d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192l42.7 0c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0L21.3 320C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7l42.7 0C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3l-213.3 0zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352l117.3 0C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7l-330.7 0c-14.7 0-26.7-11.9-26.7-26.7z"
+                />
+              </svg>
+            </picture>
+            <h1>game crossplay</h1>
+            <p>
+              We have excellent crossplay with all platforms, so you won't have
+              any trouble playing with your friends! You can also add them as
+              friends on Snk Pass and play together on the same platform! What
+              are you waiting for? Let's Play!
+            </p>
+          </div>
+        </article>
+        <article class="cards-about-us">
+          <!-- Card 2 -->
+          <div>
+            <!-- Card 2 -->
+            <picture>
+              <!-- SVG -->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                <path
+                  d="M192 64C86 64 0 150 0 256S86 448 192 448l256 0c106 0 192-86 192-192s-86-192-192-192L192 64zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24l0 32 32 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-32 0 0 32c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-32-32 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l32 0 0-32z"
+                />
+              </svg>
+            </picture>
+            <h1>Gaming Platform</h1>
+            <p>
+              We focus on providing a platform for our passionate gamers. where
+              they will own the video games they choose. as long as they
+              maintain an active membership. It's simple, purchase your
+              membership, and you would play LITERALLY anything you want!
+            </p>
+          </div>
+        </article>
+        <article class="cards-about-us">
+          <!-- Card 3 -->
+          <div>
+            <!-- Card 3 -->
+            <picture>
+              <!-- SVG -->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path
+                  d="M173.8 5.5c11-7.3 25.4-7.3 36.4 0L228 17.2c6 3.9 13 5.8 20.1 5.4l21.3-1.3c13.2-.8 25.6 6.4 31.5 18.2l9.6 19.1c3.2 6.4 8.4 11.5 14.7 14.7L344.5 83c11.8 5.9 19 18.3 18.2 31.5l-1.3 21.3c-.4 7.1 1.5 14.2 5.4 20.1l11.8 17.8c7.3 11 7.3 25.4 0 36.4L366.8 228c-3.9 6-5.8 13-5.4 20.1l1.3 21.3c.8 13.2-6.4 25.6-18.2 31.5l-19.1 9.6c-6.4 3.2-11.5 8.4-14.7 14.7L301 344.5c-5.9 11.8-18.3 19-31.5 18.2l-21.3-1.3c-7.1-.4-14.2 1.5-20.1 5.4l-17.8 11.8c-11 7.3-25.4 7.3-36.4 0L156 366.8c-6-3.9-13-5.8-20.1-5.4l-21.3 1.3c-13.2 .8-25.6-6.4-31.5-18.2l-9.6-19.1c-3.2-6.4-8.4-11.5-14.7-14.7L39.5 301c-11.8-5.9-19-18.3-18.2-31.5l1.3-21.3c.4-7.1-1.5-14.2-5.4-20.1L5.5 210.2c-7.3-11-7.3-25.4 0-36.4L17.2 156c3.9-6 5.8-13 5.4-20.1l-1.3-21.3c-.8-13.2 6.4-25.6 18.2-31.5l19.1-9.6C65 70.2 70.2 65 73.4 58.6L83 39.5c5.9-11.8 18.3-19 31.5-18.2l21.3 1.3c7.1 .4 14.2-1.5 20.1-5.4L173.8 5.5zM272 192a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM1.3 441.8L44.4 339.3c.2 .1 .3 .2 .4 .4l9.6 19.1c11.7 23.2 36 37.3 62 35.8l21.3-1.3c.2 0 .5 0 .7 .2l17.8 11.8c5.1 3.3 10.5 5.9 16.1 7.7l-37.6 89.3c-2.3 5.5-7.4 9.2-13.3 9.7s-11.6-2.2-14.8-7.2L74.4 455.5l-56.1 8.3c-5.7 .8-11.4-1.5-15-6s-4.3-10.7-2.1-16zm248 60.4L211.7 413c5.6-1.8 11-4.3 16.1-7.7l17.8-11.8c.2-.1 .4-.2 .7-.2l21.3 1.3c26 1.5 50.3-12.6 62-35.8l9.6-19.1c.1-.2 .2-.3 .4-.4l43.2 102.5c2.2 5.3 1.4 11.4-2.1 16s-9.3 6.9-15 6l-56.1-8.3-32.2 49.2c-3.2 5-8.9 7.7-14.8 7.2s-11-4.3-13.3-9.7z"
+                />
+              </svg>
+            </picture>
+            <h1>Rewards System</h1>
+            <p>
+              We have our own perfect Rewards System. All the challenges you
+              overcome will have their reward! You will be able to see your
+              rewards collected in your profile. Are you ready to be number 1 in
+              your favorites video games?
+            </p>
+          </div>
+        </article>
+      </aside>
+    </section>
+
+    <section id="membresias">
+      <!-- Memberships -->
+      <h1>MEMBERSHIPS</h1>
+      <aside>
+        <!-- Cards Memberships -->
+        <article>
+          <!-- Card Free -->
+          <span>Free</span>
+          <h1>Free Pass</h1>
+          <p>Try It.</p>
+          <ul>
+            <!-- Benefits -->
+            <li>1 Game per Month (No choice)</li>
+            <li>30 Mins of Ads before playing</li>
+            <li>Exclusive Platform for your Games</li>
+          </ul>
+          <form action="">
+            <!-- Button Call to Action -->
+            <button type="button">Go play</button>
+          </form>
+        </article>
+        <article>
+          <!-- SNK Pass -->
+          <span>$14.99 <small>/m</small></span>
+          <h1>SNK PASS</h1>
+          <p>Unlimited access to:</p>
+          <ul>
+            <!-- Benefits -->
+            <li>15 Games to choose from</li>
+            <li>Access to Game Crossplay</li>
+            <li>Access to Rewards</li>
+            <li>Access to Personal Technical Service</li>
+            <li>Exclusive Platform for your Games</li>
+          </ul>
+          <form action="">
+            <!-- Button Call to Action -->
+            <button type="button">Buy Pass</button>
+          </form>
+        </article>
+        <article>
+          <!-- Pass ELITE -->
+          <span>$29.49 <small>/m</small></span>
+          <h1>PASS ELITE</h1>
+          <p>Get more than you expect.</p>
+          <ul>
+            <!-- Benefits -->
+            <li>50 Games to choose from</li>
+            <li>Access to Game Crossplay</li>
+            <li>Access to Rewards</li>
+            <li>Access to Personal Technical Service</li>
+            <li>Exclusive Platform for your Games</li>
+            <li>Access to Friends System</li>
+            <li>Access to Monthly Giveaways</li>
+            <li>Specials Profile Styling</li>
+            <li>An ELITE badge on your profile!</li>
+          </ul>
+          <form action="">
+            <!-- Button Call to Action -->
+            <button type="button">Be an ELITE</button>
+          </form>
+        </article>
+      </aside>
+    </section>
+
+    <section id="carrusel">
+      <!-- Carrousel -->
+      <h1>ARE YOU READY FOR GET THIS BENEFITS?</h1>
+      <aside>
+        <!-- Cards -->
+        <article>
+          <!-- Card 1 -->
+          <div>
+            <picture>
+              <!-- IMG Card -->
+              <img src="assets/images/carrousel/carrouselcards1.webp" alt="" />
+            </picture>
+          </div>
+          <article>
+            <!-- Description Card -->
+            <h3>PLAY ANY GAME YOU WANT</h3>
+            <p>
+              Enjoy your favorites games in our platform. That you want, you get
+              it.
+            </p>
+          </article>
+        </article>
+
+        <article>
+          <!-- Card 2 -->
+          <div>
+            <picture>
+              <!-- IMG Card -->
+              <img src="assets/images/carrousel/carrouselcards2.webp" alt="" />
+            </picture>
+          </div>
+          <article>
+            <!-- Description Card -->
+            <h3>WIN GIVEAWAYS</h3>
+            <p>
+              You will Be Able to Win Giveaways on every Month with your ELITE
+              Pass.
+            </p>
+          </article>
+        </article>
+
+        <article>
+          <!-- Card 3 -->
+          <div>
+            <picture>
+              <!-- IMG Card -->
+              <img src="assets/images/carrousel/carrouselcards3.webp" alt="" />
+            </picture>
+          </div>
+          <article>
+            <!-- Description Card -->
+            <h3>ENJOY WITH YOUR FRIENDS</h3>
+            <p>
+              Our Crossplay System Allow you to play with your friends! What Are
+              You waiting for?
+            </p>
+          </article>
+        </article>
+      </aside>
+    </section>
+
+    <section id="contacto">
+      <!-- Contact Section -->
+      <article>
+        <!-- Contact Title -->
+        <h1>Contact Us</h1>
+      </article>
+      <aside>
+        <!-- Contact Section -->
+        <form action="">
+          <!-- Contact Form -->
+
+          <label for="NameContact">Name</label>
+          <input
+            type="text"
+            id="NameContact"
+            placeholder="Your Name Here"
+            required
+          />
+
+          <label for="EmailContact">E-mail</label>
+          <input
+            type="email"
+            id="EmailContact"
+            placeholder="Your E-mail Here"
+            required
+          />
+
+          <label for="PhoneContact">Phone</label>
+          <input
+            type="number"
+            id="PhoneContact"
+            placeholder="Your Phone Here"
+            required
+          />
+
+          <label for="MessageContact">What's Up?</label>
+          <textarea
+            id="MessageContact"
+            placeholder="Write your Message"
+            required
+          ></textarea>
+
+          <fieldset>
+            <!-- Buttons Form -->
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+          </fieldset>
+        </form>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83327.37148369424!2d-123.20630437049164!3d49.25781819028181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sar!4v1721672984381!5m2!1sen!2sar"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+        <!-- Google Map -->
+      </aside>
+    </section>
+
+    <footer>
+      <!-- Footer -->
+      <article>
+        <!-- Information -->
+        <h3>Information</h3>
+        <ul>
+          <!-- List Information -->
+          <li>+54 123456789</li>
+          <li>support@snkpass.com</li>
+          <li>Horary 24/7</li>
+        </ul>
+      </article>
+      <article>
+        <!-- Ubication -->
+        <h3>Ubication</h3>
+        <ul>
+          <!-- List Ubication -->
+          <li>Canada</li>
+          <li>Vancouver</li>
+          <li>601 Smithe St</li>
+        </ul>
+      </article>
+      <article>
+        <!-- Additional -->
+        <h3>Additional</h3>
+        <ul>
+          <!-- List Additionals -->
+          <li><a href="#">Work With Us</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Send Us an Email</a></li>
+        </ul>
+      </article>
+    </footer>
+  </body>
+</html>

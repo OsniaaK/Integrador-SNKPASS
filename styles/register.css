@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --background: #03012c;
+  --fonts: #e2cfea;
+  --header: #6247aa;
+  --header2: #6147aa77;
+  --details: #a06cd5;
+  --titles: #b33c86;
+}
+
+::selection {
+  background-color: var(--details);
+}
+
+body {
+  background: url(../assets/images/loginbackground.webp);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  font-family: "Kanit";
+  color: var(--fonts);
+}
+
+#login-sect {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+#login-sect aside {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-radius: 16px;
+  padding: 50px;
+  background-color: rgba(25, 0, 29, 0.212);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.432);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.4px);
+  border: 1px solid rgba(255, 255, 255, 0.616);
+}
+
+#login-sect > aside > article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0;
+}
+
+#login-sect > aside > article > h1 {
+  font-size: 3rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+#login-sect > aside > article > h1::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: white;
+  bottom: 7px;
+  border-radius: 5px;
+}
+
+#login-sect > aside > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 70px;
+  padding-top: 40px;
+}
+
+#login-sect > aside > form > input {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  border: 2px solid var(--details);
+  border-radius: 3px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--fonts);
+  padding-left: 45px;
+  outline: none;
+  font-size: 1.2rem;
+  font-family: "Kanit";
+}
+
+.usersvg {
+  width: 25px;
+  left: 0;
+  position: absolute;
+  transform: translateY(-175px) translateX(60px);
+  height: 25px;
+  stroke: rgb(255, 255, 255);
+}
+
+.emailsvg {
+  width: 25px;
+  left: 0;
+  position: absolute;
+  transform: translateY(-65px) translateX(60px);
+  height: 25px;
+  stroke: rgb(255, 255, 255);
+}
+
+.passwordsvg {
+  width: 25px;
+  left: 0;
+  position: absolute;
+  transform: translateY(45px) translateX(60px);
+  height: 25px;
+  stroke: rgb(255, 255, 255);
+}
+
+#login-sect > aside > form > label {
+  position: absolute;
+  text-shadow: black 0px 0px 3px;
+}
+
+#login-sect > aside > form > label:nth-child(1) {
+  transform: translateY(-210px) translateX(100px);
+  left: 0;
+}
+
+#login-sect > aside > form > label:nth-child(4) {
+  transform: translateY(-100px) translateX(100px);
+  left: 0;
+}
+
+#login-sect > aside > form > label:nth-child(7) {
+  transform: translateY(9px) translateX(100px);
+  left: 0;
+}
+
+#login-sect > aside > form > fieldset {
+  border: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-35px);
+}
+
+#login-sect > aside > form > fieldset > button {
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: none;
+  color: var(--fonts);
+  border: 2px solid;
+  padding: 10px 35px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: Kanit;
+  transition: all 200ms ease-in-out;
+}
+
+#login-sect > aside > form > fieldset > button:hover {
+  transition: all 200ms ease-in-out;
+  background-color: var(--fonts);
+  color: var(--background);
+  border: 2px solid var(--fonts);
+}
+
+#login-sect > aside > ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 180px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px 10px;
+}
+
+#login-sect > aside > ul > li:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+
+#login-sect > aside > ul > li > a {
+  color: var(--fonts);
+  transition: all 200ms ease-in-out;
+}
+
+#login-sect > aside > ul > li > a:hover {
+  color: var(--details);
+  text-shadow: var(--details) 0px 0px 2px;
+  transition: all 200ms ease-in-out;
+}
+
+#login-sect > aside > ul > li {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--fonts);
+  text-shadow: black 0px 0px 4px;
+}
+
+#login-sect > aside > ul > li::before {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  background-color: #fff;
+  bottom: 0;
+  border-radius: 3px;
+  transition: all 200ms ease-in-out;
+}
+
+#login-sect > aside > ul > li:hover::before {
+  width: 100%;
+  transition: all 200ms ease-in-out;
+}
