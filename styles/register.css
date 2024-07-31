@@ -41,6 +41,7 @@ body {
 }
 
 #login-sect aside {
+  width: 600px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -184,9 +185,11 @@ body {
 
 #login-sect > aside > ul {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 180px;
+  gap: 30px;
   width: 100%;
   border-radius: 3px;
   padding: 10px 10px;
