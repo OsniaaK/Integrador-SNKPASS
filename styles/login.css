@@ -32,7 +32,7 @@ body {
 
 #login-sect {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -155,9 +155,10 @@ body {
 
 #login-sect > aside > ul {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  gap: 180px;
+  gap: 30px;
   width: 100%;
   border-radius: 3px;
   padding: 10px 10px;

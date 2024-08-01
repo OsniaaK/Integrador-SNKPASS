@@ -1,10 +1,7 @@
-@media (max-width:1366px) {
-    #login-sect > aside {
-        transform: scale(0.9);
-    }
-}
-
 @media (max-width:1280px) {
+    body {
+        background-size: cover;
+    }
 
     #login-sect > aside{
         width: 500px;
@@ -21,15 +18,11 @@
     }
 
     .usersvg {
-        transform: translateY(-162px) translateX(60px);
-    }
-
-    .emailsvg {
-        transform: translateY(-77px) translateX(60px);
+        transform: translateY(-119px) translateX(60px);
     }
 
     .passwordsvg {
-        transform: translateY(8px) translateX(60px);
+        transform: translateY(-34px) translateX(60px);
     }
 
     #login-sect > aside > form > label:nth-child(1) {
@@ -49,12 +42,14 @@
 }
 
 @media (max-width:1024px) {
-    body {
-        transform: scale(0.8);
+    #login-sect > aside {
+        transform: scale(0.9);
+        
     }
 }
 
 @media (max-width:668px) {
+    
     #login-sect > aside {
         transform: scale(0.8);
     }
@@ -62,6 +57,12 @@
 
 @media (max-width:400px) {
     #login-sect > aside {
-        transform: scale(0.8);
+        transform: scale(0.7);
+    }
+}
+
+@media (max-width:344px) {
+    #login-sect > aside {
+        transform: scale(0.6);
     }
 }

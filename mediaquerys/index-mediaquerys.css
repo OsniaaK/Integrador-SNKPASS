@@ -596,7 +596,6 @@
 
   #contacto {
     padding-top: 80px;
-    padding-bottom: 800px;
   }
 
   #contacto > article > h1 {
@@ -782,8 +781,7 @@
   }
 
   #carrusel {
-    padding-top: 120px;
-    padding-bottom: 80px;
+    padding-top: 0px;
   }
 
   #carrusel > aside {
@@ -819,7 +817,6 @@
 
   #contacto {
     padding-top: 30px;
-    padding-bottom: 800px;
   }
 
   #contacto > article > h1 {
@@ -996,8 +993,9 @@
   }
 
   #about-us {
-    padding-top: 100px;
+    padding-top: 60px;
     padding-left: 0;
+    height: 100%;
   }
 
   #about-us > article > h1 {
@@ -1036,6 +1034,7 @@
 
   #membresias {
     padding-left: 0;
+    height: 100%;
   }
 
   #membresias > h1 {
@@ -1074,11 +1073,10 @@
 
   #carrusel {
     padding-left: 0;
-  }
-
-  #carrusel {
-    padding-top: 120px;
-    padding-bottom: 80px;
+    height: 100%;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    padding-top: 130px;
   }
 
   #carrusel > aside {
@@ -1114,7 +1112,7 @@
 
   #contacto {
     padding-top: 30px;
-    padding-bottom: 800px;
+    width: 100%;
     padding-left: 0;
   }
 
@@ -1167,6 +1165,7 @@
 
   footer {
     margin-left: 0;
+    margin-top: 400px;
     width: 100%;
   }
 
@@ -1223,10 +1222,6 @@
     width: 95%;
     transform: translateY(90px);
   }
-
-  #membresias {
-    padding-bottom: 750px;
-  }
 }
 
 @media (max-width: 1050px) {
@@ -1244,10 +1239,6 @@
   );
   background-size: 40px 40px;
   animation: movebackground 4s linear infinite;
-  }
-  
-  #about-us {
-    padding-top: 940px;
   }
 
   #about-us > article > h1 {
@@ -1283,11 +1274,6 @@
     position: absolute;
     width: 95%;
     transform: translateY(90px);
-  }
-
-  #membresias { 
-    margin-top: 840px;
-    padding-top: 0;
   }
 
   #membresias > h1 {
@@ -1327,11 +1313,6 @@
     font-size: 1rem;
   }
 
-  #carrusel {
-    margin-top: 1040px;
-    padding-top: 970px;
-  }
-
   #carrusel > h1 {
     font-size: 2.25rem;
     text-align: center;
@@ -1364,10 +1345,6 @@
     font-size: 1rem;
   }
 
-  #contacto {
-    margin-top: 870px;
-  }
-
   #contacto > aside {
     flex-direction: column;
   }
@@ -1383,9 +1360,6 @@
     width: 450px;
   }
 
-  footer {
-    margin-top: 400px;
-  }
 }
 
 @media (max-width: 670px) {
@@ -1426,10 +1400,6 @@
     font-size: 0.8rem;
   }
 
-  #about-us {
-    padding-top: 850px;
-  }
-
   #about-us > aside > article {
     width: 280px;
   }
@@ -1454,10 +1424,6 @@
     position: absolute;
     width: 95%;
     transform: translateY(75px);
-  }
-
-  #membresias {
-    margin-top: 750px;
   }
 
   #membresias > aside > article {
@@ -1486,11 +1452,6 @@
     font-size: .9rem;
   }
 
-  #carrusel {
-    margin-top: 970px;
-    padding-top: 930px;
-  }
-
   #carrusel > h1 {
     font-size: 1.9rem;
     padding-left: 20px;
@@ -1517,10 +1478,6 @@
 
   #carrusel > aside > article > article p {
     font-size: .8rem;
-  }
-
-  #contacto {
-    margin-top: 790px;
   }
 
   #contacto > aside{ 
@@ -1593,10 +1550,6 @@
     font-size: 4.5rem;
   }
 
-  #contacto {
-    margin-top: 800px;
-  } 
-
   #contacto > aside > iframe {
     width: 330px;
   }
@@ -1609,10 +1562,6 @@
 
   main > div > article > p {
     font-size: .85rem;
-  }
-
-  #about-us {
-    padding-top: 120vh;
   }
 
   #about-us > article > h1 {
@@ -1649,10 +1598,6 @@
     font-size: 1.8rem;
   }
 
-  #membresias {
-    margin-top: 105vh;
-  }
-
   #membresias > aside > article {
     width: 230px;
     height: 415px;
@@ -1677,11 +1622,6 @@
   #membresias > aside > article > form > button {
     padding: 1rem 1.75rem;
     font-size: .9rem;
-  }
-
-  #carrusel {
-    margin-top: 110vh;
-    padding-top: 800px;
   }
 
   #carrusel > h1 {
@@ -1716,10 +1656,6 @@
     font-size: .8rem;
   }
 
-  #contacto {
-    margin-top: 650px;
-  }
-
   #contacto > aside > iframe {
     width: 250px;
     height: 350px;
@@ -1731,10 +1667,6 @@
 
   #contacto > aside > form > textarea {
     width: 250px;
-  }
-
-  footer {
-    margin-top: 290px;
   }
 }
 
